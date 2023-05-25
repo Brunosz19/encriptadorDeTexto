@@ -13,6 +13,8 @@ main {
   display: flex;
   justify-content: space-around;
   box-sizing: border-box;
+  gap: 50px;
+  flex-wrap: wrap;
 }
 
 .input-section {
@@ -56,6 +58,7 @@ span {
 .button-container {
   margin-top: 16px;
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
 }
 
