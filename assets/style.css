@@ -1,5 +1,5 @@
 body {
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   background-color: #e9ecf8;
 }
@@ -11,6 +11,7 @@ h1 {
 
 main {
   display: flex;
+  justify-content: space-around;
   box-sizing: border-box;
 }
 
@@ -36,9 +37,61 @@ textarea {
   resize: none;
   background-color: inherit;
   width: 100%;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+}
+
+span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #495057;
+  opacity: 0.8;
 }
 
 .button-container {
+  margin-top: 16px;
+  display: flex;
+  gap: 24px;
+}
+
+button {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  width: 328px;
+  height: 67px;
+  border: 1px solid #0a3871;
+  border-radius: 24px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.button-encriptar {
+  color: white;
+  background-color: #0a3871;
+}
+
+.button-encriptar:hover {
+  background-color: #051d3b;
+  transform: scale(1.1);
+}
+
+.button-desencriptar {
+  color: #0a3871;
+  background-color: #d8dfe8;
+}
+
+.button-desencriptar:hover {
+  background-color: #8297b1;
+  transform: scale(1.1);
 }
 
 .output-section {
@@ -55,5 +108,24 @@ textarea {
   justify-content: center;
 }
 
-.munheco {
+.advice {
+  width: 336px;
+  height: 58px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  text-align: center;
+  color: #343a40;
+}
+
+.secondary-advice {
+  width: 336px;
+  height: 48px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #495057;
 }
