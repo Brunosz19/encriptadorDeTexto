@@ -115,6 +115,7 @@ button {
 }
 
 .advice {
+  margin-top: 32px;
   width: 336px;
   height: 58px;
   font-style: normal;
@@ -126,6 +127,7 @@ button {
 }
 
 .secondary-advice {
+  margin-top: 16px;
   width: 336px;
   height: 48px;
   font-style: normal;
