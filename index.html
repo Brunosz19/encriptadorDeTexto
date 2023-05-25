@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/reset.css" />
     <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Encriptador de texto</title>
   </head>
   <body>
@@ -14,8 +20,12 @@
     </h1>
     <main>
       <section class="input-section">
-        <textarea name="input" placeholder="Ingrese el texto aqui"></textarea>
-        <div class="button-container">
+        <textarea
+          name="input"
+          placeholder="Ingrese el texto aqui"
+          rows="20"
+        ></textarea>
+        <div>
           <span>
             <img
               src="./assets/images/bi_exclamation-circle-fill.svg"
@@ -23,18 +33,18 @@
             />
             Solo letras minúsculas y sin acentos
           </span>
-          <div>
-            <button>Encriptar</button>
-            <button>Dencriptar</button>
+          <div class="button-container">
+            <button class="button-encriptar">Encriptar</button>
+            <button class="button-desencriptar">Desencriptar</button>
           </div>
         </div>
       </section>
 
       <section class="output-section">
         <img class="munheco" src="./assets/images/Muñeco.svg" />
-        <p>Ningún mensaje fue encontrado</p>
-        <p>Ingresa el texto que desees encriptar o desencriptar.</p>
-        <button>Copiar</button>
+        <p class="advice">Ningún mensaje fue encontrado</p>
+        <p class="secondary-advice">Ingresa el texto que desees encriptar o desencriptar.</p>
+        <!-- <button>Copiar</button> -->
       </section>
     </main>
   </body>
